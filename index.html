@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Radu Bogdan — Programmer</title>
+  <meta name="description" content="Radu Bogdan — Programmer. About me, education, projects, skills, work experience, and contact." />
+  <meta property="og:title" content="Radu Bogdan — Programmer" />
+  <meta property="og:description" content="About me, education, projects, skills, work experience, and contact." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header glass">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-logo" aria-hidden="true">RB</span>
+        <span class="brand-text">Radu Bogdan</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+          <li>
+            <button id="themeToggle" class="icon-btn" title="Toggle dark mode" aria-label="Toggle dark mode">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" /></svg>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="headline">Radu Bogdan — <span class="accent">Programmer</span></h1>
+          <p class="lead">
+            Hello! My name is Radu Bogdan, I am 20 years old and I enjoy programming, playing video games, going to the gym and listening to music.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card glass">
+          <ul class="bulleted subtle">
+            <li>
+              I am currently enrolled at ASE (Bucharest University of Economic Studies - 2nd year), studying Economics &amp; Informatics in English.
+            </li>
+            <li>
+              My dream is to become a successful software engineer, working remotely and earning substantial amounts of money using my skills.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title">• Education and studies</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>English Level</h3>
+              <p>C2 (CAE 202/210 distinction pass)</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>ECDL</h3>
+              <p>ECDL START profile (excluding Access)</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Highschool</h3>
+              <p>George Cosbuc Bilingual National College (2019 → 2023)</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Bachelor's</h3>
+              <p>Computer Science &amp; Economics at the Bucharest University Of Economic Studies (2023 → present — 2nd year)</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Udemy</h3>
+              <p>
+                <a href="https://www.udemy.com" target="_blank" rel="noopener">"100 Days of Code: The Complete Python Pro Bootcamp" by Angela Yu</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <h3>Boot.dev</h3>
+              <p>
+                Backend web developer course on <a href="https://www.boot.dev" target="_blank" rel="noopener">boot.dev</a> (August 2024 — Present)
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <h2 class="section-title">• Personal Projects</h2>
+
+        <div class="grid cards">
+          <a class="card project" href="https://bogoo.itch.io/the-maze" target="_blank" rel="noopener">
+            <div class="card-body">
+              <h3 class="card-title">The maze</h3>
+              <p class="card-desc">Object finding horror game made in Unity.</p>
+              <span class="card-tag">Unity</span>
+            </div>
+          </a>
+
+          <a class="card project" href="https://bogoo.itch.io/block-drop" target="_blank" rel="noopener">
+            <div class="card-body">
+              <h3 class="card-title">Block drop</h3>
+              <p class="card-desc">A simple 2D game.</p>
+              <span class="card-tag">2D</span>
+            </div>
+          </a>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">2D RPG in Python</h3>
+              <p class="card-desc">RPGMaker-style project.</p>
+              <span class="card-tag">Python</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">More small apps</h3>
+              <p class="card-desc">More simple games, applications, and web apps in Python.</p>
+              <span class="card-tag">Various</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">In progress</h3>
+              <p class="card-desc">A more complex top-down 3D RPG in Unity.</p>
+              <span class="card-tag">Unity • 3D</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">• Skills</h2>
+
+        <ul class="skills-list">
+          <li><span>SQL</span><span class="pill">beginner</span></li>
+          <li><span>C#</span><span class="pill">beginner</span></li>
+          <li><span>APIs</span><span class="pill">beginner</span></li>
+          <li><span>Python / C++</span><span class="pill">medium → advanced</span></li>
+          <li><span>HTML / CSS / JavaScript</span><span class="pill">medium</span></li>
+          <li><span>Office (Excel, Word, PowerPoint)</span><span class="pill">advanced</span></li>
+          <li><span>UnityEngine / UnrealEngine</span><span class="pill">medium</span></li>
+          <li><span>Audio Editing in FL Studio</span><span class="pill">advanced</span></li>
+          <li><span>Teamwork-oriented, Serious and Determined</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section alt">
+      <div class="container">
+        <h2 class="section-title">• Work experience</h2>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <h3>QA Tester — Electronic Arts</h3>
+            <p class="muted">June 2024 — September 2024</p>
+          </article>
+
+          <article class="work-card">
+            <h3>Cashier / Commercial Worker — Mega Image</h3>
+            <p class="muted">October 2023 — April 2024</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">• Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-card glass">
+            <p>You can contact me VIA:</p>
+            <ol class="contact-list">
+              <li>Email: <a href="mailto:bogdan.radu.808@gmail.com">bogdan.radu.808@gmail.com</a> <button class="copy icon-btn" data-copy="bogdan.radu.808@gmail.com" title="Copy email">Copy</button></li>
+              <li>SMS/WhatsApp: <a href="tel:+40758309979">+40 758 309 979</a> <button class="copy icon-btn" data-copy="+40758309979" title="Copy phone">Copy</button></li>
+            </ol>
+          </div>
+
+          <form class="contact-form" onsubmit="return false" aria-describedby="contactNote">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Write your message..."></textarea>
+            </div>
+            <button class="btn btn-primary" id="fakeSend">Send</button>
+            <p id="contactNote" class="muted small">This form is a front-end demo. Use email/WhatsApp to reach me.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted small">
+        © <span id="year"></span> Radu Bogdan. Built with vanilla HTML/CSS/JS.
+      </p>
+      <a class="to-top icon-btn" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
